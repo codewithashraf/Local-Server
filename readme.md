@@ -1,19 +1,27 @@
-# ⚡ Start Server Installer (Live Server Alternative)
+# ⚡ Local Server
 
-A powerful and lightweight local server CLI tool — just like VS Code Live Server, but without the extension!
-
-This tool allows you to serve **any directory** as a live-reloading web server on `http://localhost:5000`. No need to install Node.js globally — just download the installer and run from the terminal.
+**Live preview of your local files — without any browser extension.**  
+Created with ❤️ by [Ashraf](https://github.com/codewithashraf)
 
 ---
 
-## 📦 Features
+## 🚀 Overview
 
+Local Server is a lightweight tool that instantly serves any folder on `http://localhost:5000`.  
+It works completely **independently** — no extensions or code editors required.
+
+---
+
+## ✨ Features
+
+- ⚡ Super fast local server (zero configuration)
 - ✅ Simple to use — just run `start-server` from any folder
-- 📁 Serves all files in the **current directory**
 - 🔁 Auto reloads on changes to `.html`, `.css`, and `.js` files (Live Server behavior)
-- ⚡ Extremely fast — built using pure Node.js
+- 🧠 **Smart index detection** – serves `index.html` if available, otherwise shows folder listing
+- 🗂️ Directory listing with file icons, size, and modified time
+- ❌ 404-safe handling (e.g. favicon error handling)
+- 📦 Portable `.exe` file – Node.js not required
 - 🖥️ Installer included — no setup required after installation
-- 🚀 Works out-of-the-box on Windows (Linux/macOS coming soon)
 
 ---
 
@@ -25,13 +33,13 @@ This tool allows you to serve **any directory** as a live-reloading web server o
 
 2. **Run the Installer**
 
-   - Double-click the downloaded file
-   - Allow permissions if prompted
-   - It will add `start-server` command to your system globally
+   - Double-click the downloaded file  
+   - Allow permissions if prompted  
+   - It will globally add the `start-server` command to your system
 
 3. **Ready to Use!**
 
-   Open **any terminal**, go to any folder you want to serve, and run:
+   Open **any terminal**, navigate to any folder you want to serve, and run:
 
    ```bash
    start-server
